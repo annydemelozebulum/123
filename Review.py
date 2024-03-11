@@ -9,3 +9,5 @@ for number in random_numbers[:]:
     else:
         index = random_numbers.index(number)
         random_numbers[index] = number * 2
+
+print(random_numbers)
