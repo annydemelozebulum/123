@@ -1,4 +1,4 @@
-
+import random
 class Point:
 
     def __init__(self, x, y):
@@ -12,11 +12,15 @@ class Point:
         self.x = x
         self.y = y
 
-A = Point(2, 3)
+a = Point(2, 3)
 
-print(A.x)
-print(A.y)
+print(a.x)
+print(a.y)
 
-B = Point(7, 9)
-print(B.x)
-print(B.y)
+b = Point(7, 9)
+print(b.x)
+print(b.y)
+
+
+
+
